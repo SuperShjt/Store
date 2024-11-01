@@ -8,7 +8,7 @@ function NavSectionOne(){
                 <li><a href="#">My Account</a></li>
                 <li><a href="#">Shop</a></li>
          </ul>
-         <img src= {logo} alt="logo"></img>  
+         <img src= {logo} alt="logo" height="100px"/> 
          </>
         
 

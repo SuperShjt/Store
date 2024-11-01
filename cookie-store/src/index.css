@@ -1,16 +1,91 @@
-navbar{
+body {
+  padding : 0 ; 
+  margin : 0
+  }
+.navbar{
   display: flex;
   justify-content: space-between;
+  background-color: wheat;
+  border-radius: 12px;
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  width: 100%;
 
 }
-
 .account-shop{
   display: flex;
   flex-direction: row;
   list-style-type: none;
   gap: 20px;
+  padding: 10px;
+}
+.search-cart{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 20px;  
+  padding-right: 30px;
 }
 a{
   text-decoration: none;
-  color: black;
+  color: black; 
+}
+.search-box{
+  padding: 10px;
+  border: none;
+  margin-right: 16px;
+  font-size: 17px;
+  border-radius: 4px; /* Rounded corners */
+  background-color: #f0f0f0;
+  height: 20px;
+  font-family: 'Cookie', cursive;
+  font-size: 22px;
+}
+.background-img{
+    background-color: rgb(231, 228, 222);/* Replace with your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position:center ; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: space-between; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative; /* Position relative for absolute positioning of text */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    border-radius: 12px;
+
+}
+.animate-text{
+  position: relative; /* Position text absolutely within the container */
+  animation: fadeIn 5s ease-in-out infinite; /* Apply animation */
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0; /* Start invisible */
+      transform: translateY(-20px); /* Start slightly above */
+  }
+  to {
+      opacity: 1; /* Fade in to visible */
+      transform: translateY(0); /* Move to original position */
+  }
+}
+
+h1 {
+  font-size: 3em; /* Size of the main heading */
+  margin: 0; /* Remove default margin */
+  font-family: 'Cookie', cursive;
+}
+
+p {
+  font-family: 'Cookie', cursive;
+  font-size: 1.5em; /* Size of the paragraph text */
+}
+.bg-img{
+  height: 1000px;
+  width: auto;
+  max-width: 100%;
+  
 }

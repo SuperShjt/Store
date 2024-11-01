@@ -1,14 +1,14 @@
 
-import SectionOne from "./NavSectionOne"
-
+import NavSectionOne from "./NavSectionOne"
+import NavSectionTwo from "./NavSectionTwo"
 
 function Navbar(){
 
     return(
 
-        <navbar>
-            <SectionOne></SectionOne>
-            
+        <navbar className="navbar">
+            <NavSectionOne></NavSectionOne>
+            <NavSectionTwo></NavSectionTwo>
         </navbar>
 
     
